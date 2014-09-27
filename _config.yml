@@ -1,3 +1,4 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
+baseurl: http://camargozzini.github.io/06-12-14/
