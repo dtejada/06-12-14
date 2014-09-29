@@ -193,3 +193,18 @@ ul.ss-choices {
 li.ss-choice-item {
   text-align: left;
 }
+
+.white {
+  background: #fff;
+}
+
+/*REGALOS*/
+
+.progress-bar{
+  min-width: 30px;
+}
+
+.precio {
+  color: #BDBDBD;
+  line-height: 40px;
+}
