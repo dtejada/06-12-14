@@ -52,7 +52,13 @@ h1 {
   color: #FFFFFF;
 }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
-h3 { font-size: 1.17em; margin: 1em 0; }
+
+h3 { 
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600
+}
+
 h4 { font-size: 1em; margin: 1.33em 0; }
 h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
@@ -178,8 +184,8 @@ Global Styles
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #1BC799; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
-h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
-h2::after { content: " "; border: solid 2px #1BC799; display: block; width: 35px; margin: 0px auto 25px; }
+h2 { font-size: 18px; color: #353535; text-transform: uppercase; font-weight: bold; }
+h2::after { content: " "; border: solid 2px #1BC799; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
@@ -268,6 +274,7 @@ Hero
   -webkit-border-radius: 20px; 
   -o-border-radius: 20px; 
   color: #fff;
+  margin: 5px;
 }
 
 .learn-more-btn:hover, .learn-more-btn:focus, .btn:hover, .btn:focus  { background: rgba(61, 201, 179, 0.6); color: #fff; }
@@ -276,7 +283,7 @@ Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
 .intro p { margin: 50px 0 0; }
-h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+h1.arrow { font-size: 25px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
 Features
 ========================================================================== */
@@ -369,7 +376,7 @@ ul.legals li:last-child::after { content: ""; }
 FlexSlider Custom CSS
 ========================================================================== */
 #servicesSlider { margin-top: 70px; }
-ul.slides li { margin-bottom: 20px; }
+ul.slides li { margin-bottom: 110px; }
 /* ==========================================================================
 Waypoints
 ========================================================================== */

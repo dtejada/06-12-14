@@ -200,8 +200,14 @@ li.ss-choice-item {
 
 /*REGALOS*/
 
+.progress {
+  width: 70%;
+  margin: 0 auto;
+}
+
 .progress-bar{
   min-width: 30px;
+  background-color: #8D00B1;
 }
 
 .precio {
