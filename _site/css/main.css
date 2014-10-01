@@ -214,3 +214,7 @@ li.ss-choice-item {
   color: #BDBDBD;
   line-height: 40px;
 }
+
+.fadeInUp {
+  height: 500px;
+}
