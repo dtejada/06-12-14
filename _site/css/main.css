@@ -218,3 +218,7 @@ li.ss-choice-item {
 .fadeInUp {
   height: 500px;
 }
+
+.hero .fadeInUp {
+  height: inherit;
+}
