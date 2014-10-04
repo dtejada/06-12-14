@@ -189,7 +189,9 @@ p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 18px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #1BC799; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 20px; }
-.dark-bg { background: #f3f5f8; }
+.dark-bg { background: #f3f5f8; 
+  padding-top: 50px;
+}
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
 .light-box { background-color: #fff; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
