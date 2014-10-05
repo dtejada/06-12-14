@@ -259,7 +259,8 @@ Hero
 .hero p { 
   letter-spacing: 1px;
   color: #FFFFFF;
-  font-size: 17px;
+  font-size: 23px;
+  line-height: 30px
 }
 .learn-more-btn { 
   background: rgba(61, 201, 179, 1); 
