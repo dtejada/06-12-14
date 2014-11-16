@@ -222,3 +222,29 @@ li.ss-choice-item {
 .hero .fadeInUp {
   height: inherit;
 }
+
+.team-wrapper .label {
+  padding: 0.7em .6em .7em;
+  font-size: 100%;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.team-wrapper .label-success {
+  background-color: #33DFDF;
+  position: relative;
+}
+
+.team-wrapper .label-success:before {
+  content: url(../img/label-success-bef.png);
+  position: absolute;
+  top: 5px;
+  left: -23px;
+}
+
+.team-wrapper .label-success:after {
+  content: url(../img/label-success-aft.png);
+  position: absolute;
+  top: 5px;
+  right: -23px;
+}
